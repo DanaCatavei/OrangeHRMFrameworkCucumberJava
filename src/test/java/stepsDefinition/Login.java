@@ -5,15 +5,15 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Login {
-    @Given("Navigate To OrangeHRM")
-    public void navigateToOrangeHRM() {
+    @Given("Navigate to SouceDemo")
+    public void navigateToSouceDemo() {
     }
 
-    @When("Fill Out Username And Password")
-    public void fillOutUsernameAndPassword() {
+    @When("<usr> and <pwd>")
+    public void usrAndPwd() {
     }
 
-    @Then("Press stepsDefinition.Login Button")
+    @Then("Press login button")
     public void pressLoginButton() {
     }
 }
