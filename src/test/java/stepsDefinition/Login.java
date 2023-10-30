@@ -9,8 +9,8 @@ public class Login {
     public void navigateToSouceDemo() {
     }
 
-    @When("<usr> and <pwd>")
-    public void usrAndPwd() {
+    @When("Fill out {} and {}")
+    public void fillOutAnd(String username, String password) {
     }
 
     @Then("Press login button")

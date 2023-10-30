@@ -1,7 +1,10 @@
 Feature: Login
   Scenario Outline:
     Given Navigate to SouceDemo
-    When <usr> and <pwd>
+    When Fill out <username> and <password>
     Then Press login button
     Examples:
-    |usr|pwd|
+      | username      | password |
+      | standard_user | secret_souce |
+
+
