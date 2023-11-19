@@ -8,12 +8,12 @@ import stepsDefinition.Hook;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:\\_DANA\\QA Engineer\\IdeaProjects\\SauceDemoFrameworkCucumberJava\\src\\test\\resources\\features",
+        features = "C:\\_DANA\\QA Engineer\\IdeaProjects\\OrangeHRMFrameworkCucumberJava\\src\\test\\resources\\features",
         glue = "stepsDefinition",
         monochrome = true)
 public class Runner extends Hook {
     @AfterClass
     public static void afterClass(){
-        driver.quit();
+        //driver.quit();
     }
 }

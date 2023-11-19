@@ -5,11 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends CommonMethods {
-    @FindBy(xpath = "//input[@id='user-name']")
+    @FindBy(xpath = "//input[@placeholder='Username']")
     private WebElement username;
-    @FindBy(xpath = "//input[@id='password']")
+    @FindBy(xpath = "//input[@placeholder='Password']")
     private WebElement password;
-    @FindBy(xpath = "//input[@id='login-button']")
+    @FindBy(xpath = "//button[@type='submit']")
     private WebElement loginButton;
 
     public void username (String username){

@@ -8,7 +8,7 @@ import java.util.Properties;
 public class ReadingFile {
     public static Properties file() throws IOException {
         Properties properties = new Properties();
-        properties.load(fileReader("C:\\_DANA\\QA Engineer\\IdeaProjects\\SauceDemoFrameworkCucumberJava\\src\\test\\resources\\properties\\config.properties"));
+        properties.load(fileReader("C:\\_DANA\\QA Engineer\\IdeaProjects\\OrangeHRMFrameworkCucumberJava\\src\\test\\resources\\properties\\config.properties"));
         return properties;
     }
     public static FileReader fileReader(String path) throws FileNotFoundException {
